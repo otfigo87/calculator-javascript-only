@@ -19,5 +19,5 @@ numbers.forEach(number => {
 })
 
 clear.addEventListener("click", () => {
-    display.value = 0;
+    display.value = "0";
 })
