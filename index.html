@@ -11,10 +11,10 @@
     <div class="calc">
         <input class="display" value="0" >
         <div class="operations">
-            <button class="operation add">+</button>
-            <button class="operation subs">-</button>
-            <button class="operation mult">*</button>
-            <button class="operation div">/</button>
+            <button class="operation" data-action="add">+</button>
+            <button class="operation" data-action="subtract">-</button>
+            <button class="operation" data-action="multiply">*</button>
+            <button class="operation" data-action="divide">/</button>
         </div>
         <div class="numbers">
             <button class="num">9</button>
@@ -27,10 +27,10 @@
             <button class="num">2</button>
             <button class="num">1</button>
             <button class="num">0</button>
-            <button class="num">.</button>
-            <button class="clear">AC</button>
+            <button class="num" data-action="decimal">.</button>
+            <button class="clear" data-action="clear">AC</button>
         </div>
-           <button class="egual">=</button>
+           <button class="egual" data-action="calculate">=</button>
         <div>
         
     </div>

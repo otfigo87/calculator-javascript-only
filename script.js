@@ -4,6 +4,8 @@ const operations = document.querySelectorAll(".operation");
 const egual = document.querySelector(".egual");
 const clear = document.querySelector(".clear");
 
+const action = key.dataset.action;
+
 let haveDot = false;
 
 numbers.forEach(number => {
